@@ -1,4 +1,3 @@
-
 const jsonString = `{
     "list": [
      {
@@ -17,15 +16,11 @@ const jsonString = `{
 const data = JSON.parse(jsonString);
 
 const result = {
-  list: [],
-};
-
-data.list.forEach((person) => {
-  result.list.push({
+  list: data.list.map((person) => ({
     name: person.name,
     age: parseInt(person.age),
-    prof: person.prof
-  });
-});
+    prof: person.prof,
+  })),
+};
 
 console.log(result);
