@@ -42,4 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
       imageContainer.innerHTML = "";
     }
   });
+  
 });
+
+

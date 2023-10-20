@@ -125,6 +125,13 @@ input:focus::placeholder {
 }
 
 .errorMessage {
+  padding: 10px;
+  display: inline-block;
   color: red;
+  font-weight: 700;
   margin-top: 10px;
+  letter-spacing: 5px;
+  background-color: #fff;
+  border-radius: 15px;
+
 }
