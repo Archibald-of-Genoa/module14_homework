@@ -1,0 +1,161 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: "Parizhel", serif;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .heading {
+    font-size: 3.2rem;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-family: "Parizhel";
+    font-size: 1.6rem;
+    width: 300px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    letter-spacing: 5px;
+  }
+  
+  label {
+    display: block;
+    font-size: 2.4rem;
+  }
+  
+  .opening_hours {
+    font-weight: 700;
+    color: white;
+    background-image: url(/images/signboard-7253504_1280.png);
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    opacity: 80%;
+  }
+  
+  input {
+    font-family: "Parizhel", serif;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    padding: 0;
+    color: black;
+    background-image: url(/images/1675480408_bogatyr-club-p-tsvet-staroi-bumagi-fon-pinterest-1.jpg);
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  input[type="number"]:hover {
+    cursor: crosshair;
+  }
+  
+  input::placeholder {
+    font-family: "Parizhel", serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .container {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .firstWindow,
+  .secondWindow {
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .flexBtn {
+    flex: 0 0 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .imageContainer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .imageContainer img {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .errorMessage {
+    padding: 10px;
+    display: inline-block;
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    background-color: #fff;
+    border-radius: 15px;
+  
+  }
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Выдача специальных фотокарточек</title>
+    <link rel="stylesheet" href="/Fonts/font.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Выдача специальных фотокарточек</h1>
+        <p class="opening_hours">
+            Режим работы:<br />
+            пн-вс 09:00 - 19:00
+        </p>
+        <h2 class="question">
+            Товарищ!! Какого размера требуется агитационный плакат?
+        </h2>
+
+        <form>
+            <div class="firstWindow">
+                <label for="widthInput">Окошко №1</label>
+                <input type="number" id="widthInput" name="widthInput" min="100" max="300"
+                    placeholder="Ширину вводить сюда" />
+            </div>
+
+            <div class="secondWindow">
+                <label for="heightInput">Окошко №2</label>
+                <input type="number" id="heightInput" name="heightInput" min="100" max="300"
+                    placeholder="А высоту - сюда" />
+            </div>
+
+            <button class="flexBtn" type="button" id="submitBtn">Даёшь плакат!!!</button>
+        </form>
+
+        <div class="imageContainer"></div>
+        <p class="errorMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

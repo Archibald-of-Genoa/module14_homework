@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Parizhel";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Parizhel.woff2") format("woff2"),
+        url("Parizhel.woff") format("woff");
+
+}
