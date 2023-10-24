@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const limitOutOfRange = limit < 1 || limit > 10;
 
         if (isNaN(page) || pageOutOfRange) {
-            errorMessage.textContent = pageOutOfRange ? "Номер страницы вне диапазона от 1 до 10" : "Номер страницы должен быть числом";
+            errorMessage.textContent = pageOutOfRange ? "Товарищ! Не хитри! Номер страницы вне диапазона от 1 до 10" : "Товарищ! Не хитри! Номер страницы должен быть числом";
             errorMessage.style.backgroundColor = "white";
             imageContainer.innerHTML = "";
         } else if (isNaN(limit) || limitOutOfRange) {
-            errorMessage.textContent = limitOutOfRange ? "Лимит вне диапазона от 1 до 10" : "Лимит должен быть числом";
+            errorMessage.textContent = limitOutOfRange ? "Товарищ! Не хитри! Лимит вне диапазона от 1 до 10" : "Товарищ! Не хитри! Лимит должен быть числом";
             errorMessage.style.backgroundColor = "white";
             imageContainer.innerHTML = "";
         } else {
